@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "249072782519",
+    "project_id": "unity-is-power-635f7",
+    "storage_bucket": "unity-is-power-635f7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:249072782519:android:cafdc5970049394d5b1132",
+        "android_client_info": {
+          "package_name": "com.abd.lastandfinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "249072782519-vh70gf1hpm4jpvf3ghhomslt5sqa4rsl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIGf0t1W9I_EI-Alchf2aP1O3tdWICGv4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "249072782519-vh70gf1hpm4jpvf3ghhomslt5sqa4rsl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

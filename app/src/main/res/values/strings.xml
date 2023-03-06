@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Last and Final</string>
+    <string-array name="courses">
+        <item>CSE</item>
+        <item>EEE</item>
+        <item>MSE</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/insert_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Inserting Data"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        />
+
+    <TextView
+        android:id="@+id/textView_register_full_name"
+        android:layout_below="@id/textView_register_head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Full Name*"
+        android:padding="6dp"
+        android:textColor="#555555"
+        android:textSize="16sp"
+        />
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView_register_full_name"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/border"
+        android:hint="Enter your full name"
+        android:inputType="textPersonName"
+        android:padding="6dp"
+        android:textSize="16sp"
+        />
+    <TextView
+        android:id="@+id/tvRoll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editText_register_full_name"
+        android:padding="6dp"
+        android:text="Roll No*" />
+
+    <EditText
+        android:id="@+id/etRollno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView_register_email"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/border"
+        android:hint="Enter your Roll No"
+        android:inputType="textEmailAddress"
+        android:padding="6dp"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvMobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editText_register_full_name"
+        android:padding="6dp"
+        android:text="Mobile No*" />
+
+    <EditText
+        android:id="@+id/etMobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView_register_email"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/border"
+        android:hint="Enter your mobile No"
+        android:inputType="number"
+        android:padding="6dp"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView_register_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editText_register_full_name"
+        android:padding="6dp"
+        android:text="Email*" />
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView_register_email"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/border"
+        android:hint="Enter your email address"
+        android:inputType="textEmailAddress"
+        android:padding="6dp"
+        android:textSize="16sp" />
+
+    <Spinner
+        android:id="@+id/spinnerCourse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/courses"
+        android:minHeight="48dp" />
+    <Button
+        android:id="@+id/btnInsertData"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:text="Insert Data"/>
+    <Button
+        android:id="@+id/btnView"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="View Data"/>
+</LinearLayout>
